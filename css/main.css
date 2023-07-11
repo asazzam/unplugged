@@ -94,6 +94,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
@@ -176,12 +177,6 @@ header .content-wrapper {
   margin: 10px 0 20px 0;
 }
 
-/*.content-wrapper {
-  outline: 3px dotted plum;
-  width: 90%;
-  margin: 50px 0;
-}*/
-
 header nav {
   width: 60%;
   font-size: 1.125em;
@@ -213,7 +208,6 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  /*margin: 50px 0;*/
 }
 
 footer .contact {
@@ -380,7 +374,7 @@ input[type="button"] {
   background-color: #2a423a;
 }
 
-.contact-content {
+.contact-content p {
   margin: 0;
 }
 
@@ -561,7 +555,7 @@ input[type="button"] {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-content: flex-start;
   }
 
   aside .content-wrapper .form-description aside .content-wrapper .form {
@@ -574,6 +568,11 @@ input[type="button"] {
   .features h2 {
     margin-bottom: 20px;
   }
+
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -596,7 +595,7 @@ input[type="button"] {
   }
 
   .reviews article figure,
-  article div {
+  .reviews article div {
     width: 49%;
   }
 
@@ -675,7 +674,6 @@ input[type="button"] {
   .contact-content h4 {
     font-size: 1.5em;
   }
-
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -774,12 +772,12 @@ input[type="button"] {
   }
 
   .mission h2,
-  .contact-section .content-wrapper {
+  .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
   }
 
-  .contact-content {
+  .contact-content h4 {
     font-size: 1.875em;
   }
 
